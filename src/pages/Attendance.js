@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Download, Search, Filter, Clock, UserCheck, Users, TrendingUp, ChevronDown, ChevronUp } from 'lucide-react';
+import { Calendar, Download, Search, Filter, TrendingUp, ChevronDown, ChevronUp } from 'lucide-react';
 import api from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 import toast from 'react-hot-toast';
