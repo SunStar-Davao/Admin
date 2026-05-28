@@ -151,7 +151,7 @@ const Login = () => {
                 <div className="flex items-center justify-center">
                   <button
                     type="button"
-                    onClick={() => window.location.href = 'https://www.facebook.com'}
+                    onClick={() => window.location.href = 'https://employee-tan-six.vercel.app/'}
                     className="text-xs text-gray-500 hover:text-gray-700 flex items-center gap-1"
                   >
                     <Shield size="12" />
