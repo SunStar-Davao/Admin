@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Home, Users, Activity, LogOut, Calendar, ChevronLeft, ChevronRight, Settings, HelpCircle } from 'lucide-react';
+import { Home, Users, Activity, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const Sidebar = () => {
